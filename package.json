@@ -1,0 +1,26 @@
+{
+  "name": "js-source-code",
+  "version": "1.0.0",
+  "description": "node js source code",
+  "keywords": [
+    "hadi"
+  ],
+  "homepage": "https://github.com/awaiskhan36745-debug/node-JS-source-code#readme",
+  "bugs": {
+    "url": "https://github.com/awaiskhan36745-debug/node-JS-source-code/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awaiskhan36745-debug/node-JS-source-code.git"
+  },
+  "license": "ISC",
+  "author": "awais ahmad",
+  "type": "commonjs",
+  "main": "CoreModule.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.21.1"
+  }
+}
