@@ -9,8 +9,8 @@ setTimeout(() => {
 console.log("hadi");
 
 //drawback of asynchronous code 
-let a = awais;
-let b = hadi; 
+let a = "awais";
+let b = "hadi"; 
 let c = "";
 
 
