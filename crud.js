@@ -27,13 +27,13 @@ fs.appendFile(mypath, " in node JS", (err) => {
 });
 
 //delete a file
-// fs.unlink(mypath, (err) => {
-//     if (err) {
-//         console.log(err);
-//     } else {
-//         console.log("file deleted successfully");
-//     }
-// });
+fs.unlink(mypath, (err) => {
+    if (err) {
+        console.log(err);
+    } else {
+        console.log("file deleted successfully");
+    }
+});
 
 //rename a file
 fs.rename(mypath, `${myCRUD}/crud-renamed.txt`, (err) => {
